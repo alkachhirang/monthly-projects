@@ -16,6 +16,7 @@ import reactimg from '../assets/images/png/react-img.png';
 import viteimg from '../assets/images/png/vite-img.png';
 import swiperimg from '../assets/images/png/swiper-img.png';
 import slickimg from '../assets/images/png/slick-img.png';
+import projectimg from '../assets/images/png/project-img.png';
 
 
 
@@ -39,12 +40,12 @@ const NavTabs = () => {
                                 <img src={constructionimg} alt="constructionimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/alkachhirang/construction-building' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/construction-building</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://construction-building02.netlify.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://construction-building02.netlify.app/</a>
                                 </div>
                             </div>
@@ -56,12 +57,12 @@ const NavTabs = () => {
                                 <img src={companyimg} alt="companyimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/alkachhirang/agencydigital' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/agencydigital</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://company-project21.netlify.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://company-project21.netlify.app/</a>
                                 </div>
                             </div>
@@ -73,12 +74,12 @@ const NavTabs = () => {
                                 <img src={koinerimg} alt="koinerimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/khushi303/koiner' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/khushi303/koiner</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://koiner-001.web.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://koiner-001.web.app/</a>
                                 </div>
                             </div>
@@ -90,12 +91,12 @@ const NavTabs = () => {
                                 <img src={lemonimg} alt="lemonimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/alkachhirang/lemonwares' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/lemonwares</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://lemon-wares.netlify.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://lemon-wares.netlify.app/</a>
                                 </div>
                             </div>
@@ -107,12 +108,12 @@ const NavTabs = () => {
                                 <img src={schoolsharpimg} alt="lemonimg" schoolsharpimg='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/alkachhirang/schoolsharp' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/schoolsharp</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://school-sharp01.netlify.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://school-sharp01.netlify.app/</a>
                                 </div>
                             </div>
@@ -128,12 +129,12 @@ const NavTabs = () => {
                                 <img src={dinoimg} alt="dinoimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/alkachhirang/denolfg' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/denolfg</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://dino-lfg.netlify.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://dino-lfg.netlify.app/</a>
                                 </div>
                             </div>
@@ -145,12 +146,12 @@ const NavTabs = () => {
                                 <img src={peptekimg} alt="peptekimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/alkachhirang/peptek' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/peptek</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://peptek.netlify.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://peptek.netlify.app/</a>
                                 </div>
                             </div>
@@ -162,12 +163,12 @@ const NavTabs = () => {
                                 <img src={nobelimg} alt="nobelimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/alkachhirang/testproject' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/testproject</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://nobel-mind.netlify.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://nobel-mind.netlify.app/</a>
                                 </div>
                             </div>
@@ -179,12 +180,12 @@ const NavTabs = () => {
                                 <img src={nexaiimg} alt="nexaiimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/alkachhirang/testproject' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/testproject</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://nexai02.netlify.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://nexai02.netlify.app/</a>
                                 </div>
                             </div>
@@ -200,12 +201,12 @@ const NavTabs = () => {
                                 <img src={furnitureimg} alt="furnitureimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/alkachhirang/Furniture' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/Furniture</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://furniture-02.netlify.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://furniture-02.netlify.app/</a>
                                 </div>
                             </div>
@@ -217,12 +218,12 @@ const NavTabs = () => {
                                 <img src={clooppimg} alt="clooppimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/alkachhirang/cloopp' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/cloopp</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://cloopp.netlify.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://cloopp.netlify.app/</a>
                                 </div>
                             </div>
@@ -234,12 +235,12 @@ const NavTabs = () => {
                                 <img src={separateimg} alt="separateimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/alkachhirang/livetest' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/livetest</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://marc-joachim-hubrich.netlify.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://marc-joachim-hubrich.netlify.app/</a>
                                 </div>
                             </div>
@@ -251,12 +252,12 @@ const NavTabs = () => {
                                 <img src={reactimg} alt="reactimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/alkachhirang/somereact-topics' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/somereact-topics</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://somereact-topics.vercel.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://somereact-topics.vercel.app/</a>
                                 </div>
                             </div>
@@ -267,12 +268,12 @@ const NavTabs = () => {
                                 <img src={viteimg} alt="viteimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/alkachhirang/html-vite' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/html-vite</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://html-vite-blue.vercel.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://html-vite-blue.vercel.app/</a>
                                 </div>
                             </div>
@@ -283,12 +284,12 @@ const NavTabs = () => {
                                 <img src={swiperimg} alt="swiperimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/alkachhirang/swiper-slider-in-html' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/swiper-slider-in-html</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://swiper-slider-in-html.vercel.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://swiper-slider-in-html.vercel.app/</a>
                                 </div>
                             </div>
@@ -299,12 +300,12 @@ const NavTabs = () => {
                                 <img src={slickimg} alt="slickimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/alkachhirang/slick-slider-in-html' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/slick-slider-in-html</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://slick-slider-in-html.vercel.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://slick-slider-in-html.vercel.app/</a>
                                 </div>
                             </div>
@@ -315,13 +316,29 @@ const NavTabs = () => {
                                 <img src={nextimg} alt="nextimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
-                                <div className='mb-[25px]'>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Github-link :</p>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
                                     <a href='https://github.com/alkachhirang/next-routing' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/next-routing</a>
                                 </div>
                                 <div>
-                                    <p className='text-black font-semibold text-[24px] mb-[12px]'>Live-link :</p>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://next-routing-lovat.vercel.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://next-routing-lovat.vercel.app/</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='flex-row flex flex-wrap items-center justify-between mb-[40px]'>
+                            <div className='w-[35%] flex gap-[16px]'>
+                                <p className='text-black font-semibold text-[30px]'>9.</p>
+                                <img src={projectimg} alt="projectimg" className='w-full rounded-[20px] border-solid border-[1px] border-[#000] ' />
+                            </div>
+                            <div className='w-[55%]'>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
+                                    <a href='https://github.com/alkachhirang/monthly-projects' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/monthly-projects</a>
+                                </div>
+                                <div>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
+                                    <a href='https://monthly-projects.vercel.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://monthly-projects.vercel.app/</a>
                                 </div>
                             </div>
                         </div>
