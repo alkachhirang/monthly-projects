@@ -25,7 +25,7 @@ const NavTabs = () => {
     return (
         <div className='bg-violet-200 '>
             <div className='container mx-auto lg:px-3 px-6 pt-[50px] pb-[50px]'>
-                <h2 className='text-[60px] font-bold text-black text-center mb-[80px]'>Monthly-projects-list</h2>
+                <h2 className='text-[60px] font-bold text-black text-center mb-[80px]'>Monthly-projects</h2>
                 <ul className='flex justify-center items-center gap-[40px] mb-[50px]'>
                     <li><a href='' onClick={(e) => { e.preventDefault(); setOpentab(1) }} className='font-semibold text-[24px] px-[30px] py-[15px] bg-[#000] text-[#fff] rounded-[50px] border-solid border-[2px] border-[#000] hover:bg-transparent hover:text-[#000] transition-all duration-300 ease-linear'>January</a></li>
                     <li><a href='' onClick={(e) => { e.preventDefault(); setOpentab(2) }} className='font-semibold text-[24px] px-[30px] py-[15px] bg-[#000] text-[#fff] rounded-[50px] border-solid border-[2px] border-[#000] hover:bg-transparent hover:text-[#000] transition-all duration-300 ease-linear'>February</a></li>
