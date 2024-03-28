@@ -17,6 +17,7 @@ import viteimg from '../assets/images/png/vite-img.png';
 import swiperimg from '../assets/images/png/swiper-img.png';
 import slickimg from '../assets/images/png/slick-img.png';
 import projectimg from '../assets/images/png/project-img.png';
+import todoimg from '../assets/images/png/todoimg.png';
 
 
 
@@ -339,6 +340,22 @@ const NavTabs = () => {
                                 <div>
                                     <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://monthly-projects.vercel.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://monthly-projects.vercel.app/</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='flex-row flex flex-wrap items-center justify-between mb-[40px]'>
+                            <div className='w-[35%] flex gap-[16px]'>
+                                <p className='text-black font-semibold text-[30px]'>10.</p>
+                                <img src={todoimg} alt="todoimg" className='w-full rounded-[20px]'/>
+                            </div>
+                            <div className='w-[55%]'>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
+                                    <a href='https://github.com/alkachhirang/todo-app' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/todo-app</a>
+                                </div>
+                                <div>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
+                                    <a href='https://todo-app-delta-ruddy-16.vercel.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://todo-app-delta-ruddy-16.vercel.app/</a>
                                 </div>
                             </div>
                         </div>
