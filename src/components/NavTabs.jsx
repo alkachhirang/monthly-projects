@@ -18,6 +18,7 @@ import swiperimg from '../assets/images/png/swiper-img.png';
 import slickimg from '../assets/images/png/slick-img.png';
 import projectimg from '../assets/images/png/project-img.png';
 import todoimg from '../assets/images/png/todoimg.png';
+import nobelmind from '../assets/images/png/nobel-mind.png';
 
 
 
@@ -362,8 +363,25 @@ const NavTabs = () => {
                     </div>
                 </div>
                 <div className={opentab === 4 ? "block" : "hidden"}>
-                    <div className='w-full min-h-screen h-[100px] bg-slate-400 rounded-sm flex justify-center items-center'>
-                        <h3 className='text-[50px] font-normal text-black'>Empty</h3>
+                    <div className='w-full border-solid border-[1px] border-[#000] px-[30px] max-w-[1164px] mx-auto rounded-[15px] py-[50px]'>
+                        <div className='flex-row flex flex-wrap items-center justify-between mb-[40px]'>
+                            <div className='w-[35%] flex gap-[16px]'>
+                                <p className='text-black font-semibold text-[30px]'>1.</p>
+                                <img src={nobelmind} alt="nobelmind" className='w-full rounded-[20px]' />
+                            </div>
+                            <div className='w-[55%]'>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
+                                    <a href='https://github.com/alkachhirang/nobel-mind2' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/nobel-mind2</a>
+                                </div>
+                                <div>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
+                                    <a href='https://nobel-mind2.vercel.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://nobel-mind2.vercel.app/</a>
+                                </div>
+                            </div>
+
+                        </div>
+                      
                     </div>
                 </div>
             </div>
@@ -371,4 +389,4 @@ const NavTabs = () => {
     )
 }
 
-export default NavTabs
+export default NavTabs;
