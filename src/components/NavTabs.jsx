@@ -19,6 +19,7 @@ import slickimg from '../assets/images/png/slick-img.png';
 import projectimg from '../assets/images/png/project-img.png';
 import todoimg from '../assets/images/png/todoimg.png';
 import nobelmind from '../assets/images/png/nobel-mind.png';
+import miniminears from '../assets/images/png/mini-miners.png';
 
 
 
@@ -383,11 +384,10 @@ const NavTabs = () => {
                         </div>
                       
                     </div>
-                    <div className='w-full border-solid border-[1px] border-[#000] px-[30px] max-w-[1164px] mx-auto rounded-[15px] py-[50px]'>
                         <div className='flex-row flex flex-wrap items-center justify-between mb-[40px]'>
                             <div className='w-[35%] flex gap-[16px]'>
                                 <p className='text-black font-semibold text-[30px]'>2.</p>
-                                <img src={nobelmind} alt="nobelmind" className='w-full rounded-[20px]' />
+                            <img src={miniminears} alt="miniminears" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
                                 <div className='mb-[18px]'>
@@ -401,8 +401,6 @@ const NavTabs = () => {
                             </div>
 
                         </div>
-                      
-                    </div>
                 </div>
             </div>
         </div>
