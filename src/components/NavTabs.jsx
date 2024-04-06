@@ -383,6 +383,26 @@ const NavTabs = () => {
                         </div>
                       
                     </div>
+                    <div className='w-full border-solid border-[1px] border-[#000] px-[30px] max-w-[1164px] mx-auto rounded-[15px] py-[50px]'>
+                        <div className='flex-row flex flex-wrap items-center justify-between mb-[40px]'>
+                            <div className='w-[35%] flex gap-[16px]'>
+                                <p className='text-black font-semibold text-[30px]'>2.</p>
+                                <img src={nobelmind} alt="nobelmind" className='w-full rounded-[20px]' />
+                            </div>
+                            <div className='w-[55%]'>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
+                                    <a href='https://github.com/Sakshi-Pareek/mini-miners.git' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/Sakshi-Pareek/mini-miners.git</a>
+                                </div>
+                                <div>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
+                                    <a href='https://mini-miners.netlify.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://mini-miners.netlify.app/</a>
+                                </div>
+                            </div>
+
+                        </div>
+                      
+                    </div>
                 </div>
             </div>
         </div>
