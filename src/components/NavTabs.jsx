@@ -400,7 +400,7 @@ const NavTabs = () => {
                         </div>
                         <div className='flex-row flex flex-wrap items-center justify-between mb-[40px]'>
                             <div className='w-[35%] flex gap-[16px]'>
-                                <p className='text-black font-semibold text-[30px]'>2.</p>
+                                <p className='text-black font-semibold text-[30px]'>3.</p>
                                 <img src={reactimg} alt="reactimg" className='w-full rounded-[20px]' />
                             </div>
                             <div className='w-[55%]'>
