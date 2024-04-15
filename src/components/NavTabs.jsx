@@ -381,7 +381,6 @@ const NavTabs = () => {
                                 </div>
                             </div>
                         </div>
-                      
                         <div className='flex-row flex flex-wrap items-center justify-between mb-[40px]'>
                             <div className='w-[35%] flex gap-[16px]'>
                                 <p className='text-black font-semibold text-[30px]'>2.</p>
@@ -395,6 +394,23 @@ const NavTabs = () => {
                                 <div>
                                     <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
                                     <a href='https://mini-miners.netlify.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://mini-miners.netlify.app/</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className='flex-row flex flex-wrap items-center justify-between mb-[40px]'>
+                            <div className='w-[35%] flex gap-[16px]'>
+                                <p className='text-black font-semibold text-[30px]'>2.</p>
+                                <img src={reactimg} alt="reactimg" className='w-full rounded-[20px]' />
+                            </div>
+                            <div className='w-[55%]'>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
+                                    <a href='https://github.com/alkachhirang/somereact-topics' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/somereact-topics</a>
+                                </div>
+                                <div>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
+                                    <a href='https://somereact-topics.vercel.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://somereact-topics.vercel.app/</a>
                                 </div>
                             </div>
 
