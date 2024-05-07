@@ -23,6 +23,7 @@ import miniminears from '../assets/images/png/mini-miners.png';
 import fig from '../assets/images/png/8fig.png';
 import kavaup from '../assets/images/png/kavaup.png';
 import marquee from '../assets/images/png/marquee.png';
+import Nvidia from '../assets/images/png/nvidia.png';
 
 
 
@@ -37,6 +38,7 @@ const NavTabs = () => {
                     <li><a href='' onClick={(e) => { e.preventDefault(); setOpentab(2) }} className='font-semibold text-[24px] px-[30px] py-[15px] bg-[#000] text-[#fff] rounded-[50px] border-solid border-[2px] border-[#000] hover:bg-transparent hover:text-[#000] transition-all duration-300 ease-linear'>February</a></li>
                     <li><a href='' onClick={(e) => { e.preventDefault(); setOpentab(3) }} className='font-semibold text-[24px] px-[30px] py-[15px] bg-[#000] text-[#fff] rounded-[50px] border-solid border-[2px] border-[#000] hover:bg-transparent hover:text-[#000] transition-all duration-300 ease-linear'>March</a></li>
                     <li><a href='' onClick={(e) => { e.preventDefault(); setOpentab(4) }} className='font-semibold text-[24px] px-[30px] py-[15px] bg-[#000] text-[#fff] rounded-[50px] border-solid border-[2px] border-[#000] hover:bg-transparent hover:text-[#000] transition-all duration-300 ease-linear'>April</a></li>
+                    <li><a href='' onClick={(e) => { e.preventDefault(); setOpentab(5) }} className='font-semibold text-[24px] px-[30px] py-[15px] bg-[#000] text-[#fff] rounded-[50px] border-solid border-[2px] border-[#000] hover:bg-transparent hover:text-[#000] transition-all duration-300 ease-linear'>May</a></li>
                 </ul>
                 <div className={opentab === 1 ? "block" : "hidden"}>
                     <div className='w-full border-solid border-[1px] border-[#000] px-[30px] max-w-[1164px] mx-auto py-[50px]'>
@@ -468,6 +470,26 @@ const NavTabs = () => {
                                 </div>
                             </div>
 
+                        </div>
+                    </div>
+                </div>
+                <div className={opentab === 5 ? "block" : "hidden"}>
+                    <div className='w-full border-solid border-[1px] border-[#000] px-[30px] max-w-[1164px] mx-auto rounded-[15px] py-[50px]'>
+                        <div className='flex-row flex flex-wrap items-center justify-between mb-[40px]'>
+                            <div className='w-[35%] flex gap-[16px]'>
+                                <p className='text-black font-semibold text-[30px]'>1.</p>
+                                <img src={Nvidia} alt="Nvidia" className='w-full rounded-[20px]' />
+                            </div>
+                            <div className='w-[55%]'>
+                                <div className='mb-[18px]'>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Github-link :</p>
+                                    <a href='https://github.com/alkachhirang/newtest' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://github.com/alkachhirang/newtest</a>
+                                </div>
+                                <div>
+                                    <p className='text-black font-semibold text-[24px] mb-[10px]'>Live-link :</p>
+                                    <a href='https://newtest-mauve.vercel.app/' target='blank' className='text-black font-medium text-[18px] hover:text-sky-500 transition-all ease-linear duration-300'>https://newtest-mauve.vercel.app/</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
